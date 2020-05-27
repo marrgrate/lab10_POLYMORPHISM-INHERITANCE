@@ -1,6 +1,10 @@
 #include "Text.h"
 #include "Polygon.h"
 
+//Object <- Figure <- Polygon 
+// |	       |
+//Text	     Ellips
+
 int main()
 {
 	Object* O;	//pointer to abstract class object
